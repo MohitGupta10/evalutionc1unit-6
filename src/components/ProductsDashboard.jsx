@@ -37,11 +37,11 @@ export const Products = () => {
           <>
             <div className="main">
               <img src={e.image} />
-              <h1>{e.id}</h1>
-              <h3>{e.title}</h3>
-              <h3>{e.brand}</h3>
-              <h5>{e.category}</h5>
-              <h5>{e.price}</h5>
+              <h1 className="product">Id - {e.id}</h1>
+              <h3 className="product">Title - {e.title}</h3>
+              <h3 className="product">Brand - {e.brand}</h3>
+              <h5 className="product">Category - {e.category}</h5>
+              <h5 className="product">Price - {e.price}</h5>
             </div>
           </>
         ))}
